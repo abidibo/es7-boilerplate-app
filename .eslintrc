@@ -5,6 +5,7 @@
     "allowImportExportEverywhere": false,
     "codeFrame": false
   },
+  "extends": "standard",
   "rules": {
     "strict": 0
   }

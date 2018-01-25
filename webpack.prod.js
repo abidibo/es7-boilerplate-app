@@ -2,7 +2,7 @@ const merge = require('webpack-merge')
 const common = require('./webpack.common.js')
 const webpack = require('webpack')
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
-const ExtractTextPlugin = require("extract-text-webpack-plugin")
+const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 module.exports = merge(common, {
   // generate source map to easily debug stuff
@@ -18,7 +18,7 @@ module.exports = merge(common, {
     }),
     // extract and split css in files
     // faster than inline bundled css because this way css in downloaded in parallel to the js bundle
-    new ExtractTextPlugin("styles.css")
+    new ExtractTextPlugin('styles.css')
   ],
   module: {
     // extract and split css in files
@@ -26,10 +26,10 @@ module.exports = merge(common, {
       {
         test: /\.css$/,
         use: ExtractTextPlugin.extract({
-          fallback: "style-loader",
-          use: "css-loader"
+          fallback: 'style-loader',
+          use: 'css-loader'
         })
       }
     ]
   }
-});
+})

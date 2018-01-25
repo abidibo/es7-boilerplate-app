@@ -34,6 +34,8 @@ Babel also bakes a number of smaller helpers directly into your compiled code. T
 
 ESlint is used to linting the code. In pair with vim it's a very powerful tool. A super basic configuration is provided, add rules and plugins to the `.eslintrc` file.
 
+- [eslint-config-standard](https://github.com/standard/eslint-config-standard)
+
 ## Commands
 
 Development:
