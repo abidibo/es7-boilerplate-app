@@ -13,7 +13,7 @@ It integrates:
 
 Just as css integration example, the [bulma framework](https://bulma.io/) css is included.
 
-## Webpack
+### Webpack
 
 A basic configuration is provided, splitted in 3 files: common, development and production.
 
@@ -22,7 +22,7 @@ A basic configuration is provided, splitted in 3 files: common, development and 
 - [ExtractTextPlugin](https://github.com/webpack-contrib/extract-text-webpack-plugin) is used to create separate css files that can be downloaded in parallel to the js boundle in production
 - [UglifyJSPlugin](https://github.com/webpack-contrib/uglifyjs-webpack-plugin) is used in production to minify and remove dead code
 
-## Babel
+### Babel
 
 Babel id harmed to benefit of ES6 and ES7 features.
 
@@ -30,7 +30,7 @@ Babel can’t support all of ES6 with compilation alone — it also requires som
 
 Babel also bakes a number of smaller helpers directly into your compiled code. This is OK for single files, but when bundling with Webpack, repeated code will result in a heavier file size. It is possible to replace these helpers with calls to the babel-runtime package. This work is done by the *transform-runtime plugin*.
 
-# ESLint
+### ESLint
 
 ESlint is used to linting the code. In pair with vim it's a very powerful tool. A super basic configuration is provided, add rules and plugins to the `.eslintrc` file.
 
