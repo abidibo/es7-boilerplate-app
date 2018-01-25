@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Boilerplate project for ES7 applications",
   "main": "src/app.js",
-  "repository": "http://github.com/otto-torino/cai-stats.git",
+  "repository": "http://github.com/abidibo/es7-boilerplate-app.git",
   "author": "abidibo",
   "license": "MIT",
   "scripts": {
